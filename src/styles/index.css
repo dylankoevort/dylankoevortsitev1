@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: Poppins, Inter, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	user-select: none;
+}
+
+#root {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #141418;
+}
+
+#root,
+body,
+html {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+/* :root {
+	--background-default: #fff;
+}
+
+.copyright {
+	position: absolute;
+	text-align: right;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	color: #cdcdcd;
+	font-size: small;
+	font-weight: bold;
+} */
