@@ -16,7 +16,7 @@ export default defineConfig({
 		alias: {
 			src: '/src',
 			components: '/src/components',
-			pages: '/src/pages',
+			sections: '/src/sections',
 			assets: '/src/assets',
 			styles: '/src/styles'
 		}
