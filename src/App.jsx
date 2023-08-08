@@ -1,10 +1,12 @@
-import LandingPage from 'pages/landing';
+import { Navbar } from 'components';
+import { Hero } from 'sections';
 
 const App = () => {
 	return (
-		<>
-			<LandingPage />
-		</>
+		<div>
+			{/* <Navbar /> */}
+			<Hero />
+		</div>
 	);
 };
 
