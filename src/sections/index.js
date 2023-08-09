@@ -1,2 +1,3 @@
 import Hero from './Hero';
-export { Hero };
+import Contact from './Contact';
+export { Hero, Contact };
