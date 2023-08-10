@@ -77,7 +77,7 @@ const Contact = () => {
 						<p className="pl-4 py-2">Cape Town, South Africa</p>
 					</li>
 					<li>
-						<a href="https://wa.me/27736085710" target="_blank" rel="noreferrer" className="flex items-center py-2  w-fit">
+						<a href="https://wa.me/27736085710" target="_blank" rel="noreferrer" className="flex items-center py-2 w-fit">
 							<BsPhone size={30} />
 							<p className="pl-4 py-2">+27 73 608 5710</p>
 						</a>
@@ -92,13 +92,13 @@ const Contact = () => {
 				<p className="py-2 text-xl font-bold">Or find me on other platforms:</p>
 				<div className="max-w-[360px] flex justify-between items-center mt-5 px-2 ml-[20px]">
 					<a href="https://www.linkedin.com/in/dylankoevort/" target="_blank" rel="noreferrer">
-						<AiOutlineLinkedin size={50} className="hover:scale-125" />
+						<AiOutlineLinkedin size={50} className="hover:scale-125 transition-transform" />
 					</a>
 					<a href="https://github.com/dylankoevort" target="_blank" rel="noreferrer">
-						<AiOutlineGithub size={50} className="hover:scale-125" />
+						<AiOutlineGithub size={50} className="hover:scale-125 transition-transform" />
 					</a>
 					<a href="https://www.instagram.com/dylankoevort/" target="_blank" rel="noreferrer">
-						<AiOutlineInstagram size={50} className="hover:scale-125" />
+						<AiOutlineInstagram size={50} className="hover:scale-125 transition-transform" />
 					</a>
 				</div>
 			</div>
