@@ -1,10 +1,10 @@
 import { Navbar, Footer } from 'components';
+import { useEffect } from 'react';
 import { Hero, About, Projects, Contact } from 'sections';
 
 const App = () => {
 	return (
-		<div>
-			{/* <p className="absolute top w-full text-sm text-center text-white pt-2 bg-red-700">Website in development</p> */}
+		<div className="text-light-secondary dark:text-dark-secondary ease-in-out duration-500">
 			<Navbar />
 			<Hero />
 			<About />
