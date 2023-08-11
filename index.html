@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 	<head>
 		<meta charset="UTF-8" />
 		<link rel="icon" type="image/png" href="/DK.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Dylan Koevort</title>
+		<script>
+			if (localStorage.theme === 'dark' || !('theme' in localStorage)) {
+				document.getElementsByTagName('html')[0].classList.add('dark');
+				localStorage.theme = 'dark';
+			} else {
+				document.getElementsByTagName('html')[0].classList.remove('dark');
+				localStorage.theme = 'light';
+			}
+		</script>
 	</head>
-	<body class="selection:bg-gray-900 selection:text-red-400">
+	<body class="selection:bg-dark-highlightBg selection:text-dark-highlightText">
 		<div id="root"></div>
 		<script type="module" src="/src/index.jsx"></script>
 	</body>
