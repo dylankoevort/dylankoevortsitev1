@@ -13,6 +13,7 @@ export default {
 					tertiary: '#405DE6', // lighter blue
 					darkGreyOne: '#121212',
 					darkGreyTwo: '#333333',
+					darkGreyThree: '#666666',
 
 					highlightBg: colors.gray[900],
 					highlightText: colors.red[400]
@@ -28,6 +29,7 @@ export default {
 					greyThree: '#cccccc',
 					darkGreyOne: '#121212',
 					darkGreyTwo: '#333333',
+					darkGreyThree: '#666666',
 
 					highlightBg: colors.gray[900],
 					highlightText: colors.red[400]
