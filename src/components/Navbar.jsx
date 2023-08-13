@@ -37,23 +37,23 @@ const Navbar = () => {
 			duration: 600,
 			width: 'w-24'
 		},
-		{
-			name: 'Experience',
-			label: '2. Experience',
-			path: 'experience',
-			duration: 700,
-			width: 'w-32'
-		},
+		// {
+		// 	name: 'Experience',
+		// 	label: '2. Experience',
+		// 	path: 'experience',
+		// 	duration: 700,
+		// 	width: 'w-32'
+		// },
 		{
 			name: 'Projects',
-			label: '3. Projects',
+			label: '2. Projects',
 			path: 'projects',
 			duration: 800,
 			width: 'w-28'
 		},
 		{
 			name: 'Contact',
-			label: '4. Contact',
+			label: '3. Contact',
 			path: 'contact',
 			duration: 900,
 			width: 'w-28'
