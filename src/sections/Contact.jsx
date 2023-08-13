@@ -68,7 +68,7 @@ const Contact = () => {
 	return (
 		<section id="contact" className="bg-light-whiteOne dark:bg-dark-primary duration-500">
 			<div className="max-w-[1240px] mx-auto py-12 px-8 md:px-16">
-				<h2 className="text-xl pb-4 text-light-darkGreyThree font-medium">4. Contact</h2>
+				<h2 className="text-xl pb-4 text-light-darkGreyThree font-medium">3. Contact</h2>
 				<h2 className="text-5xl pb-4 text-light-tertiary font-semibold">Get in touch</h2>
 				<div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
 					<div className="text-center mx-auto sm:text-left sm:mx-0">
