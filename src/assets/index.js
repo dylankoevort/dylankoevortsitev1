@@ -14,6 +14,9 @@ import VS from './Icons/visual-studio.png';
 
 import Loqui from './Projects/loqui.svg';
 import LoquiBlack from './Projects/loquiBlack.svg';
+import LoquiMobile from './Projects/loquiMobile.jpg';
+import LoquiTablet from './Projects/loquiTablet.png';
+import LoquiDesktop from './Projects/loquiDesktop.png';
 
 export { CSharp, Css, Git, Html, Java, JavaScript, jQuery, Npm, ReactIcon, Sql, TailwindIcon, vsCode, VS };
-export { Loqui, LoquiBlack };
+export { Loqui, LoquiBlack, LoquiMobile, LoquiTablet, LoquiDesktop };
