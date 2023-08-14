@@ -61,8 +61,8 @@ const About = () => {
 	];
 
 	return (
-		<section id="about" className="dark:border-b-2 dark:border-b-white  bg-light-whiteOne dark:bg-dark-primary duration-500">
-			<div className="max-w-[1240px] mx-auto w-full py-12 px-8 md:px-16 p-4 pb-16 border-b-2 border-light-secondary dark:border-none">
+		<section id="about" className="dark:border-b-2 dark:border-b-white bg-light-whiteOne dark:bg-dark-primary duration-500">
+			<div className="max-w-[1540px] mx-auto w-full py-12 px-8 md:px-16 p-4 pb-16 border-b-2 border-light-secondary dark:border-none">
 				<h2 className="text-xl pb-4 text-light-darkGreyThree font-medium">1. About</h2>
 				<h2 className="text-5xl pb-4 text-light-tertiary font-semibold">Get to know me</h2>
 				<div className="grid grid-cols-1 gap-y-6 md:grid-cols-2 ">
