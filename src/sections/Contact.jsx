@@ -91,16 +91,16 @@ const Contact = () => {
 							</li>
 						</ul>
 						<p className="py-2 text-xl font-bold">Or find me on other platforms:</p>
-						<div className="max-w-[360px] flex justify-between items-center mt-5 px-2 ml-[20px]">
-							<a href="https://www.linkedin.com/in/dylankoevort/" target="_blank" rel="noreferrer">
+						<div className="max-w-[360px] flex justify-evenly items-center mt-5 px-2 ml-[20px]">
+							<a href="https://www.linkedin.com/in/dylankoevort/" target="_blank" rel="noreferrer" aria-label="linkedin.com/in/dylankoevort">
 								<AiOutlineLinkedin size={50} className="hover:scale-125 transition-transform" />
 							</a>
-							<a href="https://github.com/dylankoevort" target="_blank" rel="noreferrer">
+							<a href="https://github.com/dylankoevort" target="_blank" rel="noreferrer" aria-label="github.com/dylankoevort">
 								<AiOutlineGithub size={50} className="hover:scale-125 transition-transform" />
 							</a>
-							<a href="https://www.instagram.com/dylankoevort/" target="_blank" rel="noreferrer">
+							{/* <a href="https://www.instagram.com/dylankoevort/" target="_blank" rel="noreferrer">
 								<AiOutlineInstagram size={50} className="hover:scale-125 transition-transform" />
-							</a>
+							</a> */}
 						</div>
 					</div>
 					<div className="sm:-mt-14">
@@ -117,6 +117,7 @@ const Contact = () => {
 									value={name}
 									className="py-2 px-3 w-full rounded-md text-gray-800 font-bold"
 									onChange={(e) => handleInputChange(e)}
+									autoComplete="off"
 								/>
 							</div>
 							<div className="col-span-2 md:col-span-2 lg:col-span-1">
@@ -130,6 +131,7 @@ const Contact = () => {
 									className="py-2 px-3 w-full rounded-md text-gray-800 font-bold"
 									value={email}
 									onChange={(e) => handleInputChange(e)}
+									autoComplete="off"
 								/>
 							</div>
 							<div className="col-span-2 h-full">
@@ -143,6 +145,7 @@ const Contact = () => {
 									value={message}
 									className="h-full py-2 px-3 w-full rounded-md text-gray-800 font-bold"
 									onChange={(e) => handleInputChange(e)}
+									autoComplete="off"
 								></textarea>
 							</div>
 							<div className="col-span-2 mx-auto mt-[40px]">

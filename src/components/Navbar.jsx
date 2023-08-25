@@ -25,35 +25,35 @@ const Navbar = () => {
 	const navItems = [
 		{
 			name: 'Home',
-			label: '0. Home',
+			label: 'Home',
 			path: 'home',
 			duration: 500,
 			width: 'w-24'
 		},
 		{
 			name: 'About',
-			label: '1. About',
+			label: 'About',
 			path: 'about',
 			duration: 600,
 			width: 'w-24'
 		},
 		// {
 		// 	name: 'Experience',
-		// 	label: '2. Experience',
+		// 	label: 'Experience',
 		// 	path: 'experience',
 		// 	duration: 700,
 		// 	width: 'w-32'
 		// },
 		{
 			name: 'Projects',
-			label: '2. Projects',
+			label: 'Projects',
 			path: 'projects',
 			duration: 800,
 			width: 'w-28'
 		},
 		{
 			name: 'Contact',
-			label: '3. Contact',
+			label: 'Contact',
 			path: 'contact',
 			duration: 900,
 			width: 'w-28'
