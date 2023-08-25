@@ -9,13 +9,15 @@ const App = () => {
 		logEvent(analytics, 'page_view');
 	});
 	return (
-		<div className="text-light-secondary dark:text-dark-secondary ease-in-out duration-500">
+		<div className="text-light-secondary dark:text-dark-secondary bg-light-whiteOne dark:bg-dark-primary ease-in-out duration-300">
 			<Navbar />
 			<Hero />
-			<About />
-			<Projects />
-			<Contact />
-			<Footer />
+			<div className="bg-gradient-to-br dark:from-[#050815] dark:to-[#161f41]">
+				<About />
+				<Projects />
+				<Contact />
+				<Footer />
+			</div>
 		</div>
 	);
 };

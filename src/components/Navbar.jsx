@@ -61,40 +61,41 @@ const Navbar = () => {
 	];
 
 	return (
-		<div
-			className="top-0 sticky z-50 flex justify-end md:justify-center items-center h-20 max-w-[1240px] md:max-w-full mx-auto px-4
-		 dark:text-dark-secondary text-light-secondary 
-		 md:bg-slate-50 md:dark:bg-slate-900 md:border-gray-200 dark:md:border-slate-800 md:backdrop-filter md:backdrop-blur-lg md:bg-opacity-30 dark:md:bg-opacity-20 md:border-b firefox:bg-opacity-90
-		 "
-		>
-			<ul className="hidden md:flex w-fit">
-				{navItems.map((item) => (
-					<Link
-						key={item.path}
-						activeClass="active"
-						to={item.path}
-						spy={true}
-						smooth={true}
-						offset={-70}
-						duration={item.duration}
-						className={`p-4 hover:cursor-pointer ${item.width} flex items-center hover:text-red-400 font-medium`}
-					>
-						{item.label}
-					</Link>
-				))}
-				<li>
-					<div className="hidden sm:flex hover:cursor-pointer py-4 pl-1 pr-3 w-16 items-center justify-end" onClick={toggleDarkMode}>
-						{isDarkMode ? <CiLight size={30} /> : <CiDark size={30} />}
-					</div>
-				</li>
-			</ul>
-			<div className="block md:hidden" onClick={toggleMenuOpen}>
-				{isMenuOpen ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-			</div>
-			<div
+		<>
+			{' '}
+			<nav
+				className="top-0 sticky z-50 flex justify-end md:justify-center items-center h-20 max-w-[1240px] md:max-w-full mx-auto px-4
+	 dark:text-dark-secondary text-light-secondary 
+	 md:bg-slate-50 md:dark:bg-slate-900 md:border-gray-200 dark:md:border-slate-800 md:backdrop-filter md:backdrop-blur-lg md:bg-opacity-30 dark:md:bg-opacity-20 md:border-b firefox:bg-opacity-90
+	 "
+			>
+				<ul className="hidden md:flex w-fit">
+					{navItems.map((item) => (
+						<Link
+							key={item.path}
+							activeClass="active"
+							to={item.path}
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={item.duration}
+							className={`p-4 hover:cursor-pointer ${item.width} flex items-center hover:text-red-400`}
+						>
+							{item.label}
+						</Link>
+					))}
+				</ul>
+				<div className="hidden md:flex hover:cursor-pointer py-4 pl-1 pr-3 w-16 items-center justify-end" onClick={toggleDarkMode}>
+					{isDarkMode ? <CiLight size={30} /> : <CiDark size={30} />}
+				</div>
+				<div className="block md:hidden" onClick={toggleMenuOpen}>
+					{isMenuOpen ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+				</div>
+			</nav>
+			<nav
 				className={
 					isMenuOpen
-						? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-light-secondary bg-slate-100 dark:border-r-gray-500 dark:bg-gray-900 ease-in-out duration-500 md:hidden'
+						? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-light-secondary bg-slate-100 dark:border-r-gray-500 dark:bg-gray-900 ease-in-out duration-300 md:hidden'
 						: 'fixed left-[-100%]'
 				}
 			>
@@ -119,8 +120,8 @@ const Navbar = () => {
 				<div className="mx-auto hover:cursor-pointer p-4 w-16" onClick={toggleDarkMode}>
 					{isDarkMode ? <CiLight size={30} /> : <CiDark size={30} />}
 				</div>
-			</div>
-		</div>
+			</nav>
+		</>
 	);
 };
 
