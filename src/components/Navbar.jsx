@@ -62,20 +62,25 @@ const Navbar = () => {
 
 	return (
 		<div
-			className="flex justify-end md:justify-center items-center h-20 max-w-[1240px] md:max-w-full mx-auto px-4
-		 dark:text-dark-secondary text-light-secondary sticky top-0 bg-gradient-to-b from-slate-50 via-slate-50 to-transparent
-		  dark:from-slate-900 dark:via-slate-900 dark:to-transparent z-50"
+			className="top-0 sticky z-50 flex justify-end md:justify-center items-center h-20 max-w-[1240px] md:max-w-full mx-auto px-4
+		 dark:text-dark-secondary text-light-secondary 
+		 md:bg-slate-50 md:dark:bg-slate-900 md:border-gray-200 dark:md:border-slate-800 md:backdrop-filter md:backdrop-blur-lg md:bg-opacity-30 dark:md:bg-opacity-20 md:border-b firefox:bg-opacity-90
+		 "
 		>
-			<ul className="hidden md:flex w-fit sticky top-0">
+			<ul className="hidden md:flex w-fit">
 				{navItems.map((item) => (
-					<li
+					<Link
 						key={item.path}
-						className={`p-4 pr-3 hover:cursor-pointer ${item.width} flex items-center hover:text-red-400 hover:scale-110 transition-transform font-medium`}
+						activeClass="active"
+						to={item.path}
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={item.duration}
+						className={`p-4 hover:cursor-pointer ${item.width} flex items-center hover:text-red-400 font-medium`}
 					>
-						<Link activeClass="active" to={item.path} spy={true} smooth={true} offset={-70} duration={item.duration}>
-							{item.label}
-						</Link>
-					</li>
+						{item.label}
+					</Link>
 				))}
 				<li>
 					<div className="hidden sm:flex hover:cursor-pointer py-4 pl-1 pr-3 w-16 items-center justify-end" onClick={toggleDarkMode}>
@@ -89,27 +94,26 @@ const Navbar = () => {
 			<div
 				className={
 					isMenuOpen
-						? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-light-secondary bg-light-greyThree dark:border-r-gray-500 dark:bg-gray-900 ease-in-out duration-500 md:hidden'
+						? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-light-secondary bg-slate-100 dark:border-r-gray-500 dark:bg-gray-900 ease-in-out duration-500 md:hidden'
 						: 'fixed left-[-100%]'
 				}
 			>
 				<h1 className="w-full text-3xl font-bold text-light-tertiary dark:text-dark-tertiary pt-2 pr-4 m-4">Dylan</h1>
 				<ul className="uppercase p-4">
 					{navItems.map((item) => (
-						<li key={item.path} className="p-4 border-b border-gray-700">
-							<Link
-								activeClass="active"
-								to={item.path}
-								spy={true}
-								smooth={true}
-								offset={-70}
-								duration={item.duration}
-								onClick={toggleMenuOpen}
-								className="hover:text-red-400 transition-colors"
-							>
-								{item.label}
-							</Link>
-						</li>
+						<Link
+							key={item.path}
+							activeClass="active"
+							to={item.path}
+							spy={true}
+							smooth={true}
+							offset={-70}
+							duration={item.duration}
+							onClick={toggleMenuOpen}
+							className="p-4 border-b border-gray-700 hover:text-red-400 transition-colors block"
+						>
+							{item.label}
+						</Link>
 					))}
 				</ul>
 				<div className="mx-auto hover:cursor-pointer p-4 w-16" onClick={toggleDarkMode}>

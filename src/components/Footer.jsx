@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-		<div className="flex justify-between items-center border-t-2 dark:border-t-white border-t-light-secondary p-4 bg-light-whiteOne dark:bg-dark-primary duration-500">
-			<p>0.7.0 - 23.09.14</p>
-			<div>© 2023 | Dylan Koevort</div>
+		<div className="flex justify-between items-center p-4 bg-light-whiteOne dark:bg-dark-primary duration-500">
+			<p>0.8.0 - 23.09.25</p>
+			<p>© 2023 | Dylan Koevort</p>
 		</div>
 	);
 };
