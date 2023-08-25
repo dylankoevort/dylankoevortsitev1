@@ -14,7 +14,7 @@ import VS from './Icons/visual-studio.png';
 
 import Loqui from './Projects/loqui.svg';
 import LoquiBlack from './Projects/loquiBlack.svg';
-import LoquiMobile from './Projects/loquiMobile.jpg';
+import LoquiMobile from './Projects/loquiMobile.png';
 import LoquiTablet from './Projects/loquiTablet.png';
 import LoquiDesktop from './Projects/loquiDesktop.png';
 
