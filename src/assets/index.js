@@ -18,5 +18,8 @@ import LoquiMobile from './Projects/loquiMobile.png';
 import LoquiTablet from './Projects/loquiTablet.png';
 import LoquiDesktop from './Projects/loquiDesktop.png';
 
+import MeGrad from './grad.png';
+
 export { CSharp, Css, Git, Html, Java, JavaScript, jQuery, Npm, ReactIcon, Sql, TailwindIcon, vsCode, VS };
 export { Loqui, LoquiBlack, LoquiMobile, LoquiTablet, LoquiDesktop };
+export { MeGrad };

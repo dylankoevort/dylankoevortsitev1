@@ -62,7 +62,6 @@ const Navbar = () => {
 
 	return (
 		<>
-			{' '}
 			<nav
 				className="top-0 sticky z-50 flex justify-end md:justify-center items-center h-20 max-w-[1240px] md:max-w-full mx-auto px-4
 	 dark:text-dark-secondary text-light-secondary 
@@ -95,7 +94,7 @@ const Navbar = () => {
 			<nav
 				className={
 					isMenuOpen
-						? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-light-secondary bg-slate-100 dark:border-r-gray-500 dark:bg-gray-900 ease-in-out duration-300 md:hidden'
+						? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-light-secondary bg-slate-100 dark:border-r-gray-500 dark:bg-gray-900 ease-in-out duration-300 md:hidden z-50'
 						: 'fixed left-[-100%]'
 				}
 			>
