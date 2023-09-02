@@ -1,6 +1,6 @@
 import React from 'react';
 import { CSharp, Css, Git, Html, Java, JavaScript, jQuery, Npm, ReactIcon, Sql, TailwindIcon, vsCode, VS, MeGrad } from 'assets';
-import HoverCard from 'src/components/ui/hoverCard';
+import HoverCard from 'src/components/ui/HoverCard';
 
 const About = () => {
 	const iconsLanguages = [
