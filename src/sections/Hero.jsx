@@ -23,9 +23,9 @@ const Hero = () => {
 				</div>
 				<div className="mouse_scroll z-10">
 					<div>
-						<span className="m_scroll_arrows unu"></span>
-						<span className="m_scroll_arrows doi"></span>
-						<span className="m_scroll_arrows trei"></span>
+						<span className="m_scroll_arrows unu border-r-2 border-b-2 border-blue-700 dark:border-white"></span>
+						<span className="m_scroll_arrows doi border-r-2 border-b-2 border-blue-700 dark:border-white"></span>
+						<span className="m_scroll_arrows trei border-r-2 border-b-2 border-blue-700 dark:border-white"></span>
 					</div>
 				</div>
 			</div>

@@ -65,8 +65,10 @@ body::-webkit-scrollbar-thumb {
 	background: #636363;
 }
 
-.bg-parallax {
-	background-attachment: fixed;
+@media screen and (min-width: 640px) {
+	.bg-parallax {
+		background-attachment: fixed;
+	}
 }
 
 .mouse_scroll {
@@ -88,8 +90,8 @@ body::-webkit-scrollbar-thumb {
 	-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
 	transform: rotate(45deg);
 
-	border-right: 2px solid white;
-	border-bottom: 2px solid white;
+	/* border-right: 2px solid white;
+	border-bottom: 2px solid white; */
 	margin: 0 0 3px 4px;
 
 	width: 16px;
