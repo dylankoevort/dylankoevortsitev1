@@ -3,7 +3,7 @@ import { Loqui, LoquiBlack, LoquiMobile, LoquiTablet, LoquiDesktop } from 'asset
 
 const Projects = () => {
 	return (
-		<section id="projects" className="sectionClass">
+		<section id="projects">
 			<div className="max-w-[1540px] mx-auto h-full w-full pt-12 px-8 md:px-16 pb-16">
 				<h2 className="text-xl pb-4 text-light-darkGreyThree font-medium place-self-end text-right">Projects</h2>
 				<h2 className="text-5xl pb-12 text-light-tertiary font-semibold text-right">What I've worked on</h2>
