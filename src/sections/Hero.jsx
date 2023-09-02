@@ -5,7 +5,7 @@ const Hero = () => {
 	return (
 		<section
 			id="home"
-			className="text-[#e9e9e9] bg-[url(assets/me.jpg)] bg-blend-overlay dark:bg-gray-900 bg-light-greyTwo bg-cover bg-no-repeat bg-center duration-100"
+			className="sectionClass placeholder:text-[#e9e9e9] bg-[url(assets/me.jpg)] bg-blend-overlay dark:bg-gray-900 bg-light-greyTwo bg-cover bg-no-repeat bg-center duration-100 bg-parallax"
 		>
 			<div className="max-w-[800px] mt-[-74px] w-full h-screen mx-auto text-center flex flex-col justify-center">
 				<p className="uppercase md:text-3xl sm:text-2xl text-xl text-light-tertiary font-bold p-2 px-4">Welcome to the world of</p>
@@ -20,6 +20,13 @@ const Hero = () => {
 						loop
 					/>
 					<p className="md:text-3xl sm:text-2xl text-xl pl-1 text-light-darkGreyTwo dark:text-dark-secondary">Developer</p>
+				</div>
+				<div className="mouse_scroll z-10">
+					<div>
+						<span className="m_scroll_arrows unu"></span>
+						<span className="m_scroll_arrows doi"></span>
+						<span className="m_scroll_arrows trei"></span>
+					</div>
 				</div>
 			</div>
 		</section>
