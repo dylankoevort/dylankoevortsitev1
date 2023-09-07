@@ -21,7 +21,7 @@ const ScrollingIcons = () => {
 			{logos.map((logo, index) => (
 				<div
 					key={index}
-					className="flex justify-center flex-col sm:min-h-[132px] p-3 sm:px-8 sm:py-4 gap-1 sm:gap-2 dark:text-slate-300 border-light-tertiary border-2 rounded-2xl
+					className="flex justify-center flex-col sm:min-h-[132px] p-3 sm:px-8 sm:py-4 gap-1 sm:gap-2 text-slate-800 dark:text-slate-300 border-light-tertiary border-2 rounded-2xl
                             hover:scale-105 transition-all duration-300 ease-in 
                             hover:shadow-[0_0px_80px_0px] hover:shadow-violet-700 hover:border-violet-500"
 				>

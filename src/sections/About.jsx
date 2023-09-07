@@ -65,10 +65,8 @@ const About = () => {
 	return (
 		<section id="about">
 			<div className="max-w-[1540px] mx-auto w-full py-12 px-8 md:px-16 p-4 pb-16">
-				<h2 className="text-xl pb-4 text-light-darkGreyThree font-medium ">About</h2>
-				<h2 className="text-5xl pb-4 text-transparent font-semibold bg-clip-text bg-gradient-to-r from-blue-500 via-violet-800 to-white">
-					Get to know me
-				</h2>
+				<h2 className="text-xl pb-4 text-light-darkGreyThree font-medium">About</h2>
+				<h2 className="text-5xl pb-4 text-light-tertiary font-semibold">Get to know me</h2>
 				<br />
 				<ScrollingIcons />
 				{/* <div className="h-[500px] flex items-center justify-center gap-16">

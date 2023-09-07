@@ -72,7 +72,7 @@ const Contact = () => {
 				<h2 className="text-5xl pb-4 text-light-tertiary font-semibold">Get in touch</h2>
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[1200px] mx-auto">
 					<div className="text-center mx-auto sm:text-left sm:pl-8 sm:mx-0">
-						<ul className="py-4 text-lg">
+						<ul className="py-4 text-base sm:text-lg">
 							<li className="flex items-center py-2  w-fit">
 								<IoLocationOutline size={30} />
 								<p className="pl-4 py-2">Cape Town, South Africa</p>
@@ -90,7 +90,7 @@ const Contact = () => {
 								</a>
 							</li>
 						</ul>
-						<p className="py-2 text-xl font-medium">Or find me on other platforms:</p>
+						<p className="py-2 text-lg sm:text-xl font-medium">Or find me on other platforms:</p>
 						<div className="max-w-[360px] flex justify-evenly items-center mt-5 px-2 ml-[20px]">
 							<a href="https://www.linkedin.com/in/dylankoevort/" target="_blank" rel="noreferrer" aria-label="linkedin.com/in/dylankoevort">
 								<AiOutlineLinkedin size={50} className="hover:scale-125 transition-transform" />
@@ -104,7 +104,7 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className="py-4 lg:col-span-2">
-						<p className="pb-2 pr-2 text-lg">Send me a message and I'll get back to you:</p>
+						<p className="pb-2 pr-2 text-base sm:text-lg">Send me a message and I'll get back to you:</p>
 						<form ref={form} className="mt-4 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-4" onSubmit={handleSubmitMessage}>
 							<div className="col-span-2 md:col-span-2 lg:col-span-1">
 								<label htmlFor="name" className="leading-7 text-sm">
