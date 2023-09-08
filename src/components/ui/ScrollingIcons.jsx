@@ -1,4 +1,3 @@
-import React from 'react';
 import { SiHtml5, SiJavascript, SiTypescript, SiReact, SiCss3, SiCsharp, SiTailwindcss } from 'react-icons/si';
 import { TbSql } from 'react-icons/tb';
 import { FaJava } from 'react-icons/fa';
