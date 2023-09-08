@@ -4,7 +4,6 @@ import { Hero, About, Projects, Contact } from 'sections';
 import { logEvent } from 'firebase/analytics';
 import { analytics } from './firebase';
 import SectionDisplay from './components/ui/SectionDisplay';
-import ScrollingIcons from './components/ui/ScrollingIcons';
 
 const App = () => {
 	useEffect(() => {

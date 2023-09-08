@@ -1,5 +1,5 @@
-import React, { useState, useRef } from 'react';
-import { AiOutlineLinkedin, AiOutlineGithub, AiOutlineInstagram } from 'react-icons/ai';
+import { useState, useRef } from 'react';
+import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
 import { IoLocationOutline } from 'react-icons/io5';
 import { BsPhone } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -40,7 +40,7 @@ const Contact = () => {
 		setMessageSending(true);
 
 		emailjs.sendForm('service_l279qg9', 'template_8qi0ox5', form.current, 'y_uVT0KTty_yk_mJR').then(
-			(result) => {
+			() => {
 				setMessageSending(false);
 				alert.show('Message sent successfully.', { type: 'success' });
 
@@ -60,6 +60,7 @@ const Contact = () => {
 				}
 
 				setSendAttempts(sendAttempts + 1);
+				console.error(error);
 				alert.show('Error sending message, please try again.', { type: 'error' });
 			}
 		);
@@ -104,7 +105,7 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className="py-4 lg:col-span-2">
-						<p className="pb-2 pr-2 text-base sm:text-lg">Send me a message and I'll get back to you:</p>
+						<p className="pb-2 pr-2 text-base sm:text-lg">Send me a message and I&apos;ll get back to you:</p>
 						<form ref={form} className="mt-4 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-4" onSubmit={handleSubmitMessage}>
 							<div className="col-span-2 md:col-span-2 lg:col-span-1">
 								<label htmlFor="name" className="leading-7 text-sm">

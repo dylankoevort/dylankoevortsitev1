@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import { AiOutlineHome } from 'react-icons/ai';
 import { IoPersonOutline } from 'react-icons/io5';
 import { HiMiniComputerDesktop } from 'react-icons/hi2';
