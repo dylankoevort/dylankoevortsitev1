@@ -103,7 +103,7 @@ const Contact = () => {
 							</div>
 						</div>
 					</div>
-					<div className="lg:col-span-2 max-w-[700px] mx-auto px-8 py-4 border rounded-3xl bg-slate-900">
+					<div className="lg:col-span-2 max-w-[700px] mx-auto px-8 py-4 border rounded-3xl dark:bg-slate-900">
 						<p className="pb-2 pr-2 text-base sm:text-lg">Send me a message and I&apos;ll get back to you!</p>
 						<form ref={form} className="mt-4 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-4" onSubmit={handleSubmitMessage}>
 							<div className="col-span-2 md:col-span-2 lg:col-span-1">
@@ -115,9 +115,10 @@ const Contact = () => {
 									id="name"
 									name="name"
 									value={name}
-									className="py-2 px-3 w-full rounded-md text-gray-800 font-bold"
+									className="py-2 px-3 w-full rounded-md text-gray-800 font-bold placeholder:font-light"
 									onChange={(e) => handleInputChange(e)}
 									autoComplete="off"
+									placeholder="Your name"
 								/>
 							</div>
 							<div className="col-span-2 md:col-span-2 lg:col-span-1">
@@ -128,10 +129,11 @@ const Contact = () => {
 									type="email"
 									id="email"
 									name="email"
-									className="py-2 px-3 w-full rounded-md text-gray-800 font-bold"
+									className="py-2 px-3 w-full rounded-md text-gray-800 font-bold placeholder:font-light"
 									value={email}
 									onChange={(e) => handleInputChange(e)}
 									autoComplete="off"
+									placeholder="Your email"
 								/>
 							</div>
 							<div className="col-span-2 h-full">
@@ -143,9 +145,10 @@ const Contact = () => {
 									id="message"
 									name="message"
 									value={message}
-									className="h-full py-2 px-3 w-full rounded-md text-gray-800 font-bold"
+									className="h-full py-2 px-3 w-full rounded-md text-gray-800 font-bold placeholder:font-light"
 									onChange={(e) => handleInputChange(e)}
 									autoComplete="off"
+									placeholder="Your message"
 								></textarea>
 							</div>
 							<div className="col-span-2 mx-auto mt-[40px]">
