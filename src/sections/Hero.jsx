@@ -14,8 +14,9 @@ const Hero = () => {
 					<Typed
 						className="md:text-3xl sm:text-2xl text-xl font-bold pl-1 md:pl-2 text-light-tertiary"
 						strings={['Web', 'Full-Stack', 'Mobile']}
-						typeSpeed={100}
-						backSpeed={120}
+						typeSpeed={60}
+						backSpeed={60}
+						backDelay={2000}
 						loop
 					/>
 					<p className="md:text-3xl sm:text-2xl text-xl pl-1 text-light-darkGreyTwo dark:text-dark-secondary">Developer</p>

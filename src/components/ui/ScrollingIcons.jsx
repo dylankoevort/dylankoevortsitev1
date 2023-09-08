@@ -22,7 +22,7 @@ const ScrollingIcons = () => {
 					key={index}
 					className="flex justify-center flex-col sm:min-h-[132px] p-3 sm:px-8 sm:py-4 gap-1 sm:gap-2 text-slate-800 dark:text-slate-300 border-light-tertiary border-2 rounded-2xl
                             hover:scale-105 transition-all duration-300 ease-in 
-                            hover:shadow-[0_0px_80px_0px] hover:shadow-violet-700 hover:border-violet-500"
+                            hover:shadow-[0_0px_25px_0px] hover:shadow-violet-700 hover:border-violet-500"
 				>
 					<logo.Icon size={40} className="mx-auto" />
 					<p className="text-center">{logo.name}</p>
