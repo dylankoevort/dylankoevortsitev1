@@ -9,11 +9,7 @@ const About = () => {
 				<h2 className="text-5xl pb-4 text-light-tertiary font-semibold">Get to know me</h2>
 				<div className="h-fit w-full grid grid-cols-1 lg:grid-cols-2 sm:p-8">
 					<div className="flex justify-center items-center p-4">
-						<img
-							src={MeGrad}
-							alt=""
-							className="h-[90%] md:h-[367px] max-h-[350px] w-auto rounded-3xl border-2 border-white shadow-[0_0px_60px_0px] shadow-light-tertiary dark:shadow-none hover:border-light-tertiary duration-300 transition-all"
-						/>
+						<img src={MeGrad} alt="" className="h-[90%] md:h-[367px] max-h-[350px] w-auto rounded-3xl border-2 border-white" />
 					</div>
 					<div className="flex flex-col items-center justify-center gap-4 text-justify">
 						<p>
