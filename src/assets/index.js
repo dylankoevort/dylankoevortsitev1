@@ -6,5 +6,9 @@ import LoquiDesktop from './Projects/loquiDesktop.png';
 
 import MeGrad from './grad.png';
 
+import SimonsGolfDesktop from './Projects/simonsGolfDesktop.png';
+import SimonsGolfMobile from './Projects/simonsGolfMobile.png';
+
 export { Loqui, LoquiBlack, LoquiMobile, LoquiTablet, LoquiDesktop };
 export { MeGrad };
+export { SimonsGolfDesktop, SimonsGolfMobile };

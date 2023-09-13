@@ -103,7 +103,7 @@ const Contact = () => {
 							</div>
 						</div>
 					</div>
-					<div className="lg:col-span-2 max-w-[700px] mx-auto px-8 py-4 border rounded-3xl dark:bg-slate-900">
+					<div className="lg:col-span-2 max-w-[700px] mx-auto px-8 py-4 rounded-3xl bg-slate-100 dark:bg-[#232323]">
 						<p className="pb-2 pr-2 text-base sm:text-lg">Send me a message and I&apos;ll get back to you!</p>
 						<form ref={form} className="mt-4 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-4" onSubmit={handleSubmitMessage}>
 							<div className="col-span-2 md:col-span-2 lg:col-span-1">

@@ -14,7 +14,7 @@ const App = () => {
 			<Navbar />
 			<SectionDisplay />
 			<Hero />
-			<div className="bg-gradient-to-br dark:from-[#050815] dark:to-[#161f41]">
+			<div className="dark:bg-[#1c1c1c]">
 				<About />
 				<Projects />
 				<Contact />
