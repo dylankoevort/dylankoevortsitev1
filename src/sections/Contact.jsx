@@ -93,12 +93,21 @@ const Contact = () => {
 								</li>
 							</ul>
 							<p className="py-2 text-lg sm:text-xl font-medium">Or find me on other platforms:</p>
-							<div className="max-w-[360px] flex justify-evenly items-center mt-5 px-2 ml-[20px]">
+							<div className="max-w-[360px] flex justify-between items-center mt-5 px-2">
 								<a href="https://www.linkedin.com/in/dylankoevort/" target="_blank" rel="noreferrer" aria-label="linkedin.com/in/dylankoevort">
-									<AiOutlineLinkedin size={50} className="hover:scale-125 transition-transform" />
+									<button type="button" className="rounded-2xl border flex items-center p-2 hover:bg-dark-tertiary hover:text-white">
+										<AiOutlineLinkedin size={30} />
+										<p className="pl-2">LinkedIn</p>
+									</button>
 								</a>
 								<a href="https://github.com/dylankoevort" target="_blank" rel="noreferrer" aria-label="github.com/dylankoevort">
-									<AiOutlineGithub size={50} className="hover:scale-125 transition-transform" />
+									<button
+										type="button"
+										className="rounded-2xl border flex items-center p-2 hover:bg-[#232323] hover:text-white dark:hover:bg-white dark:hover:text-black"
+									>
+										<AiOutlineGithub size={30} />
+										<p className="pl-2">GitHub</p>
+									</button>
 								</a>
 							</div>
 						</div>
