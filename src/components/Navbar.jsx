@@ -85,7 +85,7 @@ const Navbar = () => {
 					))}
 				</ul>
 				<div className="hidden md:flex hover:cursor-pointer py-4 pl-1 pr-3 w-16 items-center justify-end" onClick={toggleDarkMode}>
-					{isDarkMode ? <CiLight size={30} /> : <CiDark size={30} />}
+					{isDarkMode ? <CiLight size={25} /> : <CiDark size={25} />}
 				</div>
 				<div className="block md:hidden" onClick={toggleMenuOpen}>
 					{isMenuOpen ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}

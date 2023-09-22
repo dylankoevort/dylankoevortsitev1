@@ -20,8 +20,8 @@ const ScrollingIcons = () => {
 			{logos.map((logo, index) => (
 				<div
 					key={index}
-					className="flex justify-center flex-col sm:min-h-[132px] p-3 sm:px-8 sm:py-4 gap-1 sm:gap-2 text-slate-800 dark:text-slate-300 bg-slate-100 dark:bg-[#232323] rounded-2xl
-                            hover:scale-110 transition-all duration-150 ease-in 
+					className="flex justify-center flex-col sm:min-h-[132px] p-3 sm:px-8 sm:py-4 gap-1 sm:gap-2 text-slate-800 dark:text-slate-300
+					
                             "
 				>
 					<logo.Icon size={40} className="mx-auto" />
