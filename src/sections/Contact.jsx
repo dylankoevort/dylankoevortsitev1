@@ -70,12 +70,12 @@ const Contact = () => {
 		<section id="contact">
 			<div className="max-w-[1540px] mx-auto py-12 px-8 md:px-16">
 				<h2 className="text-xl pb-4 text-light-darkGreyThree font-medium">Contact</h2>
-				<h2 className="text-5xl pb-4 text-light-tertiary font-semibold">Get in touch</h2>
+				<h2 className="text-4xl pb-4 text-light-tertiary font-semibold">GET IN TOUCH</h2>
 				<div className="grid grid-cols-1 mx-auto">
 					<div className="flex mx-auto mb-6">
-						<div className="text-center max-w-[350px] mx-auto">
+						<div className="text-center mx-auto">
 							<ul className="text-base sm:text-lg">
-								<li className="flex items-center py-2 w-fit">
+								{/* <li className="flex items-center py-2 w-fit">
 									<IoLocationOutline size={30} />
 									<p className="pl-4 py-2">Cape Town, South Africa</p>
 								</li>
@@ -84,16 +84,16 @@ const Contact = () => {
 										<BsPhone size={30} />
 										<p className="pl-4 py-2">+27 73 608 5710</p>
 									</a>
-								</li>
+								</li> */}
 								<li>
-									<a href="mailto:koevortd@gmail.com" target="_blank" rel="noreferrer" className="flex items-center py-2 w-fit">
+									<a href="mailto:koevortd@gmail.com" target="_blank" rel="noreferrer" className="flex items-center py-2 px-2 w-fit">
 										<HiOutlineMail size={30} />
 										<p className="pl-4 py-2">koevortd@gmail.com</p>
 									</a>
 								</li>
 							</ul>
-							<p className="py-2 text-lg sm:text-xl font-medium">Or find me on other platforms:</p>
-							<div className="max-w-[360px] flex justify-between items-center mt-5 px-2">
+							{/* <p className="py-2 text-lg sm:text-xl font-medium">Or find me on other platforms:</p> */}
+							<div className="flex justify-between items-center mt-5">
 								<a href="https://www.linkedin.com/in/dylankoevort/" target="_blank" rel="noreferrer" aria-label="linkedin.com/in/dylankoevort">
 									<button type="button" className="rounded-2xl border flex items-center p-2 hover:bg-dark-tertiary hover:text-white">
 										<AiOutlineLinkedin size={30} />
