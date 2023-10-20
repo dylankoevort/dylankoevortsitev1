@@ -63,7 +63,7 @@ const Navbar = () => {
 	return (
 		<>
 			<nav
-				className="top-0 sticky z-50 flex justify-end md:justify-center items-center h-20 max-w-[1240px] md:max-w-full mx-auto px-4
+				className="top-0 z-50 flex justify-end md:justify-center items-center h-20 max-w-[1240px] md:max-w-full mx-auto px-4
 	 dark:text-dark-secondary text-light-secondary 
 	 md:bg-slate-50 md:dark:bg-slate-900 md:border-gray-200 dark:md:border-slate-800 md:backdrop-filter md:backdrop-blur-lg md:bg-opacity-30 dark:md:bg-opacity-20 md:border-b firefox:bg-opacity-90
 	 "

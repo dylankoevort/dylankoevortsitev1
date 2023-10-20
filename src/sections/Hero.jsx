@@ -7,7 +7,7 @@ const Hero = () => {
 			className="placeholder:text-[#e9e9e9] bg-[url(assets/me.jpg)] bg-blend-overlay dark:bg-gray-900 bg-light-greyTwo bg-cover bg-no-repeat bg-center duration-100 bg-parallax"
 		>
 			<div className="max-w-[800px] mt-[-74px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-				<p className="uppercase md:text-3xl sm:text-2xl text-xl text-light-tertiary font-bold p-2 px-4">Welcome to the world of</p>
+				<p className="uppercase md:text-3xl sm:text-2xl text-xl text-light-tertiary font-bold p-2 px-4">Welcome to the portfolio of</p>
 				<h1 className="md:text-8xl sm:text-7xl text-6xl font-bold md:py-6 text-light-darkGreyTwo dark:text-dark-secondary">Dylan Koevort</h1>
 				<div className="flex justify-center items-center mt-4">
 					<p className="md:text-3xl sm:text-2xl text-xl text-light-darkGreyTwo dark:text-dark-secondary">A passionate</p>
