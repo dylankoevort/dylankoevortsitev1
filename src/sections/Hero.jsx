@@ -1,4 +1,5 @@
 import Typed from 'react-typed';
+import { HiExternalLink } from 'react-icons/hi';
 
 const Hero = () => {
 	return (
@@ -21,6 +22,17 @@ const Hero = () => {
 					/>
 					<p className="md:text-3xl sm:text-2xl text-xl pl-1 text-light-darkGreyTwo dark:text-dark-secondary">Developer</p>
 				</div>
+
+				<a
+					href="src/assets/DylanKoevortCV2023.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="w-[150px] mx-auto flex justify-center items-center gap-1 border-2 rounded-xl px-2 py-1 mt-8 hover:cursor-pointer hover:bg-[#232323] hover:text-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-300 transition-all"
+				>
+					Resume
+					<HiExternalLink />
+				</a>
+
 				<div className="mouse_scroll z-10">
 					<div>
 						<span className="m_scroll_arrows unu border-r-2 border-b-2 border-blue-700 dark:border-white"></span>

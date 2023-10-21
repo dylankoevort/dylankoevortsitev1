@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
 import { IoLocationOutline } from 'react-icons/io5';
 import { BsPhone } from 'react-icons/bs';
-import { HiOutlineMail } from 'react-icons/hi';
+import { HiOutlineMail, HiExternalLink } from 'react-icons/hi';
 import emailjs from '@emailjs/browser';
 import { useAlert } from 'react-alert';
 import { DotPulse } from '@uiball/loaders';
@@ -90,11 +90,25 @@ const Contact = () => {
 										<p className="pl-4 py-2">koevortd@gmail.com</p>
 									</a>
 								</li>
+								<li>
+									<a
+										href="src/assets/DylanKoevortCV2023.pdf"
+										target="_blank"
+										rel="noopener noreferrer"
+										className="w-[150px] mx-auto flex justify-center items-center gap-1 border-2 rounded-xl px-2 py-1 hover:cursor-pointer hover:bg-[#232323] hover:text-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-300 transition-all"
+									>
+										Resume
+										<HiExternalLink />
+									</a>
+								</li>
 							</ul>
 							{/* <p className="py-2 text-lg sm:text-xl font-medium">Or find me on other platforms:</p> */}
-							<div className="flex justify-between items-center mt-5">
+							<div className="flex justify-between items-center gap-2 mt-5">
 								<a href="https://www.linkedin.com/in/dylankoevort/" target="_blank" rel="noreferrer" aria-label="linkedin.com/in/dylankoevort">
-									<button type="button" className="rounded-2xl border flex items-center p-2 hover:bg-dark-tertiary hover:text-white">
+									<button
+										type="button"
+										className="rounded-2xl border-2 flex items-center p-2 hover:bg-dark-tertiary hover:text-white ease-in-out duration-300 transition-all"
+									>
 										<AiOutlineLinkedin size={30} />
 										<p className="pl-2">LinkedIn</p>
 									</button>
@@ -102,7 +116,7 @@ const Contact = () => {
 								<a href="https://github.com/dylankoevort" target="_blank" rel="noreferrer" aria-label="github.com/dylankoevort">
 									<button
 										type="button"
-										className="rounded-2xl border flex items-center p-2 hover:bg-[#232323] hover:text-white dark:hover:bg-white dark:hover:text-black"
+										className="rounded-2xl border-2 flex items-center p-2 hover:bg-[#232323] hover:text-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-300 transition-all"
 									>
 										<AiOutlineGithub size={30} />
 										<p className="pl-2">GitHub</p>
@@ -162,7 +176,9 @@ const Contact = () => {
 							<div className="col-span-2 mx-auto mt-[40px]">
 								<button
 									type="submit"
-									className="hover:border-2 hover:dark:border-dark-secondary hover:border-light-secondary bg-light-tertiary h-[40px] w-[159px] py-2 px-4 rounded-lg flex justify-center items-center text-white"
+									className="bg-light-tertiary 
+									py-2 px-4 rounded-lg flex justify-center items-center text-white 
+									hover:tracking-[0.4rem] hover:cursor-pointer ease-in-out duration-300 transition-all"
 								>
 									{messageSending ? <DotPulse size={40} lineWeight={3.5} speed={1} color="white" className="mx-auto" /> : 'Send message'}
 								</button>
