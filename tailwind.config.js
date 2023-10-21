@@ -11,9 +11,11 @@ export default {
 					primary: '#050815', // dark blue
 					secondary: '#f8f9fa', // whiteish grey colour
 					tertiary: '#405DE6', // lighter blue
+					greyOne: '#cccccc',
 					darkGreyOne: '#121212',
 					darkGreyTwo: '#333333',
 					darkGreyThree: '#666666',
+					darkGreyFour: '#777777',
 
 					highlightBg: colors.gray[900],
 					highlightText: colors.red[400]

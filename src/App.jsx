@@ -10,7 +10,7 @@ const App = () => {
 		logEvent(analytics, 'page_view');
 	});
 	return (
-		<div className="text-light-secondary dark:text-dark-secondary bg-light-whiteOne dark:bg-dark-primary ease-in-out duration-300">
+		<div className="text-light-secondary dark:text-dark-greyOne bg-light-whiteOne dark:bg-dark-primary ease-in-out duration-300">
 			<Navbar />
 			<SectionDisplay />
 			<Hero />
