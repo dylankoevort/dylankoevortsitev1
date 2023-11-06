@@ -1,5 +1,6 @@
 import Typed from 'react-typed';
 import { HiExternalLink } from 'react-icons/hi';
+import { CV } from '../assets';
 
 const Hero = () => {
 	return (
@@ -24,7 +25,7 @@ const Hero = () => {
 				</div>
 
 				<a
-					href="src/assets/DylanKoevortCV2023.pdf"
+					href={CV}
 					target="_blank"
 					rel="noopener noreferrer"
 					className="w-[150px] mx-auto flex justify-center items-center gap-1 border-2 rounded-xl px-2 py-1 mt-8 hover:cursor-pointer hover:bg-[#232323] hover:text-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-300 transition-all"

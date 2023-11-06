@@ -6,6 +6,7 @@ import { HiOutlineMail, HiExternalLink } from 'react-icons/hi';
 import emailjs from '@emailjs/browser';
 import { useAlert } from 'react-alert';
 import { DotPulse } from '@uiball/loaders';
+import { CV } from '../assets';
 
 const Contact = () => {
 	const form = useRef();
@@ -92,7 +93,7 @@ const Contact = () => {
 								</li>
 								<li>
 									<a
-										href="src/assets/DylanKoevortCV2023.pdf"
+										href={CV}
 										target="_blank"
 										rel="noopener noreferrer"
 										className="w-[150px] mx-auto flex justify-center items-center gap-1 border-2 rounded-xl px-2 py-1 hover:cursor-pointer hover:bg-[#232323] hover:text-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-300 transition-all"
