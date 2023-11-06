@@ -9,6 +9,9 @@ import MeGrad from './grad.png';
 import SimonsGolfDesktop from './Projects/simonsGolfDesktop.png';
 import SimonsGolfMobile from './Projects/simonsGolfMobile.png';
 
+import CV from './DylanKoevortCV2023.pdf';
+
 export { Loqui, LoquiBlack, LoquiMobile, LoquiTablet, LoquiDesktop };
 export { MeGrad };
 export { SimonsGolfDesktop, SimonsGolfMobile };
+export { CV };
