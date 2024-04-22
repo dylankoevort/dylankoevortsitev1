@@ -2,7 +2,7 @@ import React from 'react';
 import Typed from 'react-typed';
 import { HiExternalLink } from 'react-icons/hi';
 import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
-import { CV } from '../assets';
+import { CV, Loqui, Notta } from '../assets';
 
 const TempPage = () => {
 	const resumeLink = (
@@ -35,6 +35,26 @@ const TempPage = () => {
 		</a>
 	);
 
+	const loquiLink = (
+		<a href="https://loquichat.com" target="_blank" rel="noreferrer" aria-label="loquichat.com">
+			<div className="flex justify-center flex-col p-3 sm:px-8 sm:py-4 gap-1 sm:gap-2 text-slate-300 hover:cursor-pointer hover:shadow-md rounded-xl">
+				<img src={Loqui} alt="loqui logo" className="w-10 md:w-20 mx-auto" />
+				<p className="text-center">Loqui</p>
+				<p className="hidden md:block text-center">Real-time chat app.</p>
+			</div>
+		</a>
+	);
+
+	const nottaLink = (
+		<a href="https://notta.co.za" target="_blank" rel="noreferrer" aria-label="notta.co.za">
+			<div className="flex justify-center flex-col p-3 sm:px-8 sm:py-4 gap-1 sm:gap-2 text-slate-300 hover:cursor-pointer hover:shadow-md rounded-xl">
+				<img src={Notta} alt="Notta logo" className="w-10 md:w-20 mx-auto" />
+				<p className="text-center">Notta</p>
+				<p className="hidden md:block text-center">Note taking app.</p>
+			</div>
+		</a>
+	);
+
 	return (
 		<div
 			className="w-full h-screen mx-auto text-center flex flex-col justify-center 
@@ -46,7 +66,7 @@ const TempPage = () => {
 				<p className="md:text-3xl sm:text-2xl text-xl text-slate-300">A passionate</p>
 				<Typed
 					className="md:text-3xl sm:text-2xl text-xl font-bold pl-1 md:pl-2 text-light-tertiary"
-					strings={['Web', 'Full-Stack', 'Mobile']}
+					strings={['Web', 'Full-Stack']}
 					typeSpeed={60}
 					backSpeed={60}
 					backDelay={2000}
@@ -57,20 +77,24 @@ const TempPage = () => {
 			<p className="mt-8 md:text-lg sm:text-base text-sm text-slate-300 p-2 px-4">
 				Currently, I'm putting the finishing touches on this portfolio to showcase my work.
 				<br />
-				In the mean time, view my resume or connect with me on other platforms!
+				In the mean time, view my resume, connect with me on other platforms or check out 2 of my projects!
 			</p>
 
 			<div className="md:hidden flex flex-col justify-center items-center gap-4 mt-4 ">
 				{resumeLink}
 				<div className="flex justify-center items-center">
+					{loquiLink}
 					{linkedinLink}
 					{githubLink}
+					{nottaLink}
 				</div>
 			</div>
 			<div className="hidden md:flex justify-center items-center gap-8 mt-4">
+				{loquiLink}
 				{linkedinLink}
 				{resumeLink}
 				{githubLink}
+				{nottaLink}
 			</div>
 		</div>
 	);

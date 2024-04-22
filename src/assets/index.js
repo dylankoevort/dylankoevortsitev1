@@ -11,7 +11,10 @@ import SimonsGolfMobile from './Projects/simonsGolfMobile.png';
 
 import CV from './DylanKoevortCV2023.pdf';
 
+import Notta from './Projects/notta.png';
+
 export { Loqui, LoquiBlack, LoquiMobile, LoquiTablet, LoquiDesktop };
 export { MeGrad };
 export { SimonsGolfDesktop, SimonsGolfMobile };
 export { CV };
+export { Notta };
