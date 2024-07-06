@@ -11,20 +11,20 @@ const App = () => {
 		logEvent(analytics, 'page_view');
 	});
 	return (
-		// <div className="text-light-secondary dark:text-dark-greyOne bg-light-whiteOne dark:bg-dark-primary ease-in-out duration-300">
-		// 	<Navbar />
-		// 	<SectionDisplay />
-		// 	<Hero />
-		// 	<div className="dark:bg-[#1c1c1c]">
-		// 		<About />
-		// 		<Projects />
-		// 		<Contact />
-		// 		<Footer />
-		// 	</div>
-		// </div>
-		<>
-			<TempPage />
-		</>
+		<div className="text-light-secondary dark:text-dark-greyOne bg-light-whiteOne dark:bg-dark-primary ease-in-out duration-300">
+			<Navbar />
+			<SectionDisplay />
+			<Hero />
+			<div className="dark:bg-[#1c1c1c]">
+				<About />
+				<Projects />
+				<Contact />
+				<Footer />
+			</div>
+		</div>
+		// <>
+		// 	<TempPage />
+		// </>
 	);
 };
 
